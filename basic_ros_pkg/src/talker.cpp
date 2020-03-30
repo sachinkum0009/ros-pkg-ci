@@ -1,6 +1,6 @@
 #include "ros/ros.h"
 #include "std_msgs/String.h"
-#include "basic_ros_pkg/StringIntTuple.h"
+//#include "basic_ros_pkg/StringIntTuple.h"
 
 #include <sstream>
 
@@ -13,9 +13,9 @@ int main(int argc, char **argv)
     int count = 0;
 
     // Use the custom message type defined
-    basic_ros_pkg::StringIntTuple tuple;
-    tuple.str = "string";
-    tuple.num = 0;
+    //basic_ros_pkg::StringIntTuple tuple;
+    //tuple.str = "string";
+    //tuple.num = 0;
 
     while (ros::ok())
     {
