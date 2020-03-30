@@ -52,10 +52,10 @@ find_package(catkin REQUIRED COMPONENTS
 #   Message1.msg
 #   Message2.msg
 # )
-#add_message_files(
-#  FILES
-#  StringIntTuple.msg
-#)
+add_message_files(
+  FILES
+  StringIntTuple.msg
+)
 
 ## Generate services in the 'srv' folder
 # add_service_files(
@@ -113,7 +113,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES basic_ros_pkg
-  CATKIN_DEPENDS message_generation roscpp std_msgs message_runtime
+  CATKIN_DEPENDS roscpp std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
