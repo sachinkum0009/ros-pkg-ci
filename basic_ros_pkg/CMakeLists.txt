@@ -113,7 +113,7 @@ generate_messages(
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES basic_ros_pkg
-  CATKIN_DEPENDS message_generation roscpp std_msgs
+  CATKIN_DEPENDS message_generation roscpp std_msgs message_runtime
 #  DEPENDS system_lib
 )
 
