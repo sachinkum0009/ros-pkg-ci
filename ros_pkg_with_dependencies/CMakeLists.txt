@@ -107,7 +107,7 @@ catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES ros_pkg_with_dependencies
   CATKIN_DEPENDS audio_common_msgs roscpp
-  DEPENDS system_lib
+  #DEPENDS system_lib
 )
 
 ###########
